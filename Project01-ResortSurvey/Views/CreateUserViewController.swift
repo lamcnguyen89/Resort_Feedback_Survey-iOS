@@ -21,10 +21,7 @@ class CreateUserViewController: UIViewController {
         super.viewDidLoad()
         
         createButton.layer.cornerRadius = 8
-        // Do any additional setup after loading the view.
-        username.attributedPlaceholder = NSAttributedString(string: "username", attributes: [NSAttributedString.Key.foregroundColor: UIColor.gray])
-        password.attributedPlaceholder = NSAttributedString(string: "password", attributes: [NSAttributedString.Key.foregroundColor: UIColor.gray])
-        email.attributedPlaceholder = NSAttributedString(string: "email", attributes: [NSAttributedString.Key.foregroundColor: UIColor.gray])
+
     }
     
     // Set Autorotation to false

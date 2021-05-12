@@ -26,13 +26,7 @@ class AdministratorViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        categoryInput.attributedPlaceholder = NSAttributedString(string: "Question Category", attributes: [NSAttributedString.Key.foregroundColor: UIColor.gray])
-        idCategoryInput.attributedPlaceholder = NSAttributedString(string: "Question ID: idCategory", attributes: [NSAttributedString.Key.foregroundColor: UIColor.gray])
-        questionInput.attributedPlaceholder = NSAttributedString(string: "Question", attributes: [NSAttributedString.Key.foregroundColor: UIColor.gray])
-        ratingInput.attributedPlaceholder = NSAttributedString(string: "Default Rating Integer", attributes: [NSAttributedString.Key.foregroundColor: UIColor.gray])
-        deleteInput.attributedPlaceholder = NSAttributedString(string: "Enter idCategory", attributes: [NSAttributedString.Key.foregroundColor: UIColor.gray])
-        questionsByCategory.attributedPlaceholder = NSAttributedString(string: "Enter Category", attributes: [NSAttributedString.Key.foregroundColor: UIColor.gray])
-        deleteUserInput.attributedPlaceholder = NSAttributedString(string: "Enter Username", attributes: [NSAttributedString.Key.foregroundColor: UIColor.gray])// Do any additional setup after loading the view.
+
     }
     
     // Set Autorotation to false

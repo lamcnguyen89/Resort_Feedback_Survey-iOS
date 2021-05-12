@@ -22,8 +22,6 @@ class MyMainView : UIView {
     
 }
 
-
-
 // Class to standardize Primary Button Objects
 class MyButtons : UIButton {
     
@@ -33,13 +31,28 @@ class MyButtons : UIButton {
         MyButtons.appearance().backgroundColor = .systemPurple
         MyButtons.appearance().contentEdgeInsets = UIEdgeInsets(top: 2, left: 10, bottom: 2, right: 10)
         // MyButtons.appearance().tintColor = UIColor(red: 85/255 , green: 150/255 ,blue: 100/255 , alpha: 1.0)
-        MyButtons.appearance().tintColor = .label
+        MyButtons.appearance().tintColor = .white
         self.layer.cornerRadius = 8
         self.layer.masksToBounds = true
+        self.titleLabel?.font = UIFont(name: "System", size: 20)
     }
     
     
 }
+
+// Class to standardize heading labels
+class MyHeadingLabels: UILabel {
+    required init?(coder: NSCoder) {
+        super.init(coder : coder)
+        //MyQuestionLabels.appearance().backgroundColor = UIColor(red: 85/255 , green: 150/255 ,blue: 100/255 , alpha: 1.0)
+        MyHeadingLabels.appearance().tintColor = .white
+        self.font = UIFont.systemFont(ofSize: 35.0)
+        
+    }}
+
+
+
+
 
 // Class to standardize labels that contain the questions
 class MyQuestionLabels : UILabel {
@@ -55,7 +68,10 @@ class MyQuestionLabels : UILabel {
 class MyTextFields : UITextField {
     required init?(coder: NSCoder) {
         super.init(coder : coder)
-        
+        // textFieldPlaceholder()
+        self.attributedPlaceholder = NSAttributedString(string: self.placeholder != nil ? self.placeholder! : "placeholder", attributes: [NSAttributedString.Key.foregroundColor: UIColor.gray])
     }}
+
+
 
 

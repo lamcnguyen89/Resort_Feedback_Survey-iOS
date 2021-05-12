@@ -15,10 +15,7 @@ class ForgotPasswordViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        getPasswordButton.layer.cornerRadius = 8
-        username.attributedPlaceholder = NSAttributedString(string: "username", attributes: [NSAttributedString.Key.foregroundColor: UIColor.gray])
-        email.attributedPlaceholder = NSAttributedString(string: "email", attributes: [NSAttributedString.Key.foregroundColor: UIColor.gray])
-        
+        getPasswordButton.layer.cornerRadius = 8        
     }
     
     // Set Autorotation to false
