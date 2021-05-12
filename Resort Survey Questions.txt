@@ -1,0 +1,124 @@
+Room
+1Room
+Room Cleanliness
+3
+
+Room
+2Room
+Staff Friendliness
+3
+
+Room
+3Room
+Speed of Service
+3
+
+Room
+4Room
+Room Decor and Ambience
+3
+
+Room
+5Room
+Room Amenities
+3
+
+Gym
+1Gym
+Gym Cleanliness
+3
+
+Gym
+2Gym
+Gym Equipment Selection
+3
+
+Gym
+3Gym
+Gym Atmosphere
+3
+
+Gym
+4Gym
+Staff Helpfulness
+3
+
+Gym
+5Gym
+Gym Safety
+3
+
+Spa
+1Spa
+Spa Cleanliness
+3
+
+Spa
+2Spa
+Spa Service Variety
+3
+
+Spa
+3Spa
+Staff Helpfulness
+3
+
+Spa
+4Spa
+Spa Ambience
+3
+
+Spa
+5Spa
+Staff Skillfulness
+3
+
+Food
+1Food
+Food Quality
+3
+
+Food
+2Food
+Meal Selection
+3
+
+Food
+3Food
+Speed of Service
+3
+
+Food
+4Food
+Staff Friendliness
+3
+
+Food
+5Food
+Fairness of Price
+3
+
+Overall
+1Overall
+Room Service Rating
+3
+
+Overall
+2Overall
+Gym Rating
+3
+
+Overall
+3Overall
+Spa Service Rating
+3
+
+Overall
+4Overall
+Food Service Rating
+3
+
+Overall
+5Overall
+Recommend to Friends
+3

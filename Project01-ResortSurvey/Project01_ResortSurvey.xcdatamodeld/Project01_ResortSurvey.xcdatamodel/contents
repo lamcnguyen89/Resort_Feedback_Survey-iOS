@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17192" systemVersion="19H2" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="YES" userDefinedModelVersionIdentifier="">
+    <entity name="Questions" representedClassName="Questions" syncable="YES">
+        <attribute name="category" optional="YES" attributeType="String"/>
+        <attribute name="idCategory" optional="YES" attributeType="String"/>
+        <attribute name="question" optional="YES" attributeType="String"/>
+        <attribute name="rating" optional="YES" attributeType="String"/>
+        <relationship name="questionsToUser" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Users" inverseName="answerBank" inverseEntity="Users"/>
+    </entity>
+    <entity name="Users" representedClassName=".Users" syncable="YES">
+        <attribute name="email" optional="YES" attributeType="String"/>
+        <attribute name="password" optional="YES" attributeType="String"/>
+        <attribute name="username" optional="YES" attributeType="String"/>
+        <relationship name="answerBank" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Questions" inverseName="questionsToUser" inverseEntity="Questions"/>
+    </entity>
+    <elements>
+        <element name="Questions" positionX="-54" positionY="18" width="128" height="28"/>
+        <element name="Users" positionX="-63" positionY="-18" width="128" height="28"/>
+    </elements>
+</model>
