@@ -8,7 +8,6 @@ Moonlight Resorts Feedback Application is a survey application built in iOS so u
 
 * Xcode IDE -version 12.4
 * Swift - version 5.4
-* Tech 3 - version 3.0
 
 ## Features
 
